@@ -12,6 +12,7 @@
             border: 2px solid black;
             margin: 1rem;
             padding: 1rem;
+            color: black;
 
         }
     </style>
@@ -20,14 +21,19 @@
 <body>
     <div class="main_item" id main-div>
         <h1 class="heading">Bucket list</h1>
-        <ul class="list" id="uli"></ul>
+        <ul class="list" id="uli">
+            <li ondblclick=""></li>
+        </ul>
 
-        <textarea name="" id="textarea" cols="30" rows="10"
-            style="width: 15rem;max-height: 10rem; resize: vertical; border:3px inset rgb(125, 210, 238);"></textarea>
+        <textarea placeholder="" name="" id="textarea" cols="30" rows="10"
+            style="color: black; width: 15rem;max-height: 10rem; resize: vertical; border:3px inset rgb(125, 210, 238);"></textarea>
+
 
         <button class="butt" id="butto">add new wish</button>
+        <!-- <button class="butt" id="butt">add new wish</button> -->
     </div>
     <script src="script.js"></script>
+
 </body>
 
 </html>
